@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER-SECTION -->
+      <header>
+        <div class="logo-container">
+          <a href="#"><img src="./assets/images/logo.svg" alt="web logo" /></a>
+        </div>
+          <!-- NAVIGATION-SECTION -->
+        <nav>
+          <a href="#" class="menu-open hide-desktop"
+            ><img src="./assets/images/icon-menu.svg" alt="Open menu"
+          /></a>
+          <ul>
+            <li class="hide-desktop">
+              <a href="#" class="menu-close"
+                ><img
+                  src="./assets/images/icon-menu-close.svg"
+                  alt="Close menu"
+              /></a>
+            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Categories</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- MAIN-SECTION -->
+    <main>
+
+      <!-- UPPER-SECTION -->
+        <div class="upper-section">
+          <div class="img-container">
+            <img
+              id="img-mobile-version"
+              src="./assets/images/image-web-3-mobile.jpg"
+              alt="web 3 image"
+            />
+            <img
+              id="img-desktop-version"
+              src="./assets/images/image-web-3-desktop.jpg"
+              alt="web 3 imageu"
+            />
+          </div>
+          <h1>The Bright Future of Web 3.0?</h1>
+          <div class="desc-container">
+              <p class="desc">
+                We div into the next evolution of the web that claims to put the
+                power of the platforms back into the hands of the people. But is it
+                really fulfilling its promise?
+              </p>
+              <a  href="#"><button class="primary-cta">read more</button></a>
+          </div>
+          <div class="news-container">
+            <h2>New</h2>
+            <div>
+                <div>
+                  <h3>Hydrogen <span>vs</span> Electric cars</h3>
+                  <p>
+                    will hydrogen-fueled cars ever catch up to <span>ev</span>s?
+                  </p>
+                </div>
+                <div class="divider"></div>
+            </div>
+            <div>
+              <div>
+                  <h3>The Downsides of <span>ai</span> Artistry</h3>
+                  <p>
+                    What are the possible adverse effects of on-demand
+                    <span>ai</span> image generation?
+                  </p>
+                </div>
+                <div class="divider"></div>
+            </div>
+            <div>
+              <h3>Is <span>vc</span> Funding Drying Up?</h3>
+              <p>
+                Private funding by <span>vc</span>firms is down 50%
+                <span>yoy.</span> We take a look at what that means.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- LOWER-SECTION -->
+        <div class="lower-section">
+          <div class="main-div">
+            <img
+              src="./assets/images/image-retro-pcs.jpg"
+              alt="retro picture"
+            />
+            <div>
+                <h2>01</h2>
+                <h4>Reviving Retro <span>pc</span>s</h4>
+                <p>
+                  What happens when old <span>pc</span>s are given modern upgrades?
+                </p>
+            </div>
+          </div>
+          <div class="main-div">
+            <img
+              src="./assets/images/image-top-laptops.jpg"
+              alt="laptop picture"
+            />
+            <div>
+                <h2>02</h2>
+                <h4>Top 10 Laptops of 2022</h4>
+                <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+          <div class="main-div">
+            <img
+              src="./assets/images/image-gaming-growth.jpg"
+              alt="gaming growth picture"
+            />
+            <div>
+                <h2>03</h2>
+                <h4>The Growth of Gaming</h4>
+                <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <!-- OVERLAY-SECTION -->
+    <div class="overlay hidden"></div>
+  <!-- JS-SCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
